@@ -1,0 +1,98 @@
+.app {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.dice {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 3rem auto;
+  max-width: 300px;
+}
+@media (min-width: 600px) {
+  .dice {
+    gap: 1rem;
+  }
+}
+
+.die {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+@media (min-width: 600px) {
+  .die {
+    width: 70px;
+    height: 70px;
+  }
+}
+.die .dot,
+.die span {
+  visibility: hidden;
+}
+.die.die1, .die.die2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  align-content: stretch;
+  grid-gap: 0.5rem;
+}
+.die.die1 {
+  background: blue;
+}
+.die.die1 .dot {
+  background: white;
+}
+.die.die3 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+.die.die3 span {
+  font-size: 2rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+}
+@media (min-width: 600px) {
+  .dot {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.roll {
+  text-align: center;
+}
+.roll button {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
