@@ -13,7 +13,7 @@ const cacheName = 'v1';
 const cacheAssets = [
   'index.html',
   'assets/css/main.css',
-  'assets/js/app.js',
+  'script.js',
 ]
 
 // Install service worker
