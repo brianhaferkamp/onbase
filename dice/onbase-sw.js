@@ -12,7 +12,7 @@ const cacheName = 'v1';
 // which pages/assets do you want to cache?
 const cacheAssets = [
   'index.html',
-  'assets/css/main.css',
+  'style.css',
   'script.js',
 ]
 
