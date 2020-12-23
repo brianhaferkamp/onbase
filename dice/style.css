@@ -10,7 +10,7 @@ header {
 
 .dice {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
   -webkit-box-pack: center;
   justify-content: center;
@@ -42,7 +42,7 @@ header {
 .die span {
   visibility: hidden;
 }
-.die.die1, .die.die2 {
+.die.die1, .die.die2, .die.die4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
