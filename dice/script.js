@@ -8,6 +8,8 @@ if('serviceWorker' in navigator) {
 
 
 
+
+
 function die1() {
   var dice = {
     sides: 6,
@@ -38,6 +40,23 @@ function die2() {
   
 }
 
+
+function die4() {
+  var dice = {
+    sides: 6,
+    roll: function () {
+      var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+      return randomNumber;
+    }
+  }
+
+  // result roll: determine strike or ball
+  die4Result = dice.roll();
+  console.log('Die 4 result: ' + die4Result);
+  
+}
+
+
 function die3() {
   var dice = {
     sides: 9,
@@ -58,13 +77,14 @@ $('#roll').on('click', function() {
   // roll all the dice
   die1();
   die2();
+  die4();
   die3();
   
-  $('.die1, .die2, .die3').hide();
+  $('.die1, .die2, .die3, .die4').hide();
   
   // output the results to the dice on the screen
   
-  $('.die1 .dot, .die2 .dot').css('visibility', 'hidden');
+  $('.die1 .dot, .die2 .dot, .die4 .dot').css('visibility', 'hidden');
   
   if (die1Result == 1) {
     $('.die1 .dot:nth-child(5)').css('visibility', 'visible');
@@ -73,7 +93,7 @@ $('#roll').on('click', function() {
     $('.die1 .dot:nth-child(9)').css('visibility', 'visible');
   } else if (die1Result == 3) {
     $('.die1 .dot:nth-child(1)').css('visibility', 'visible');
-    $('.die1 .dot:nth-child(1)').css('visibility', 'visible');
+    $('.die1 .dot:nth-child(5)').css('visibility', 'visible');
     $('.die1 .dot:nth-child(9)').css('visibility', 'visible');
   } else if (die1Result == 4) {
     $('.die1 .dot:nth-child(1)').css('visibility', 'visible');
@@ -102,7 +122,7 @@ $('#roll').on('click', function() {
     $('.die2 .dot:nth-child(9)').css('visibility', 'visible');
   } else if (die2Result == 3) {
     $('.die2 .dot:nth-child(1)').css('visibility', 'visible');
-    $('.die2 .dot:nth-child(1)').css('visibility', 'visible');
+    $('.die2 .dot:nth-child(5)').css('visibility', 'visible');
     $('.die2 .dot:nth-child(9)').css('visibility', 'visible');
   } else if (die2Result == 4) {
     $('.die2 .dot:nth-child(1)').css('visibility', 'visible');
@@ -124,7 +144,36 @@ $('#roll').on('click', function() {
     $('.die2 .dot:nth-child(9)').css('visibility', 'visible');
   }
   
-  $('.die1, .die2, .die3').fadeIn();
+  if (die4Result == 1) {
+    $('.die4 .dot:nth-child(5)').css('visibility', 'visible');
+  } else if (die4Result == 2) {
+    $('.die4 .dot:nth-child(1)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(9)').css('visibility', 'visible');
+  } else if (die4Result == 3) {
+    $('.die4 .dot:nth-child(1)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(5)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(9)').css('visibility', 'visible');
+  } else if (die4Result == 4) {
+    $('.die4 .dot:nth-child(1)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(3)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(7)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(9)').css('visibility', 'visible');
+  } else if (die4Result == 5) {
+    $('.die4 .dot:nth-child(1)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(3)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(5)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(7)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(9)').css('visibility', 'visible');
+  } else if (die4Result == 6) {
+    $('.die4 .dot:nth-child(1)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(3)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(4)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(6)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(7)').css('visibility', 'visible');
+    $('.die4 .dot:nth-child(9)').css('visibility', 'visible');
+  }
+  
+  $('.die1, .die2, .die4, .die3').fadeIn();
   
   $('.die3 > span').text(die3Result).css('visibility', 'visible');
 });
