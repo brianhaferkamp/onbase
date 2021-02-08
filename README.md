@@ -6,9 +6,8 @@ Thanks for checking out On Base. Here's how to get started:
 
 Download and print these files:
 
-[On Base 2019 ATL Player Cards](https://github.com/brianhaferkamp/onbase/raw/main/2019%20ATL%20Player%20Cards.pdf)\
-[On Base 2019 LAD Player Cards](https://github.com/brianhaferkamp/onbase/raw/main/2019%20LAD%20Player%20Cards.pdf)\
-[On Base C&D Game Engine](https://github.com/brianhaferkamp/onbase/raw/main/ON%20BASE%20C%26D%20Engine.pdf)\
+[On Base 2019 WSH Player Cards](https://github.com/brianhaferkamp/onbase/raw/main/OnBase%20Washington%20Nationals%202019.pdf)\
+[On Base 2019 NYM Player Cards](https://github.com/brianhaferkamp/onbase/raw/main/OnBase%20New%20York%20Mets%202019.pdf)\
 [On Base Gameplay and Rules](https://github.com/brianhaferkamp/onbase/raw/main/On%20Base%20Gameplay.pdf)\
 [On Base Scorecard](https://github.com/brianhaferkamp/onbase/raw/main/On%20Base%20Scorecard.pdf)
 
