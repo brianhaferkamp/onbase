@@ -12,7 +12,7 @@ Based on feedback from the WAR-based version of On Base we've made many changes 
 - Improved accuracy of outcomes based on roll research
 - Updated quick start guide
 - New mechanisms for pitcher fatigue, bunting, and error checks
-- Batting card for pitchers
+- Batting card for pitchers included with the batter cards
 - Uploaded 2 new demo teams: 2019 Nationals and Mets
 
 ## Getting Started
