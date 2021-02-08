@@ -6,7 +6,7 @@ Based on feedback from the WAR-based version of On Base we've made many changes 
 
 - Outcomes are now on the player cards
 - Redesigned player cards
-- New DIPS-based at-bats
+- New DIPS-based at-bats now start on the pitcher card
 - Improved accuracy of outcomes based on roll research
 - Updated quick start guide
 - New mechanisms for pitcher fatigue, bunting, and error checks
