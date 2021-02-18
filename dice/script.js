@@ -19,7 +19,7 @@ function die1() {
     }
   }
 
-  // result roll: determine strike or ball
+  
   die1Result = dice.roll();
   console.log('Die 1 result: ' + die1Result);
   
@@ -34,7 +34,7 @@ function die2() {
     }
   }
 
-  // result roll: determine strike or ball
+  
   die2Result = dice.roll();
   console.log('Die 2 result: ' + die2Result);
   
@@ -50,7 +50,7 @@ function die4() {
     }
   }
 
-  // result roll: determine strike or ball
+  
   die4Result = dice.roll();
   console.log('Die 4 result: ' + die4Result);
   
@@ -66,7 +66,7 @@ function die3() {
     }
   }
 
-  // result roll: determine strike or ball
+  
   die3Result = dice.roll();
   console.log('Die 3 result: ' + die3Result);
   
