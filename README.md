@@ -32,7 +32,7 @@ On Base utilizes 3 dice for gameplay: 2 D6s and 1 D9. A D9 is a bit unusual so w
 
 [On Base Dice Roller](https://brianhaferkamp.github.io/onbase/dice/)
 
-FYI, in the newest version of the game you can ignore the blue die. This will be removed from the application soon.
+Update: The blue 50/50 die has now been removed from the dice roller app.
 
 ### Scorecard
 We've created a scorecard that is tailor-made for On Base. It includes places for WAR and Spd values to provide a quick reference during the game. However, you can use any scorecard for this game. A pen and paper will work, as well. The download for the scorecard is above.
