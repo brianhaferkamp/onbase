@@ -14,6 +14,7 @@ Based on feedback from the WAR-based version of On Base we've made many changes 
 - New mechanisms for pitcher fatigue, bunting, and error checks
 - Batting card for pitchers included with the batter cards
 - Uploaded 2 new demo teams: 2019 Nationals and Mets
+- Scorecard download updated to match new game verion
 
 ## Getting Started
 Thanks for checking out On Base. Here's how to get started:
