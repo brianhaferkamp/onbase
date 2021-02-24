@@ -22,7 +22,7 @@ Thanks for checking out On Base. Here's how to get started:
 Download and print these files:
 
 [On Base 2019 MIA Player Cards](https://github.com/brianhaferkamp/onbase/raw/main/2019_Miami_Marlins.pdf)\
-[On Base 2019 NYM Player Cards](https://github.com/brianhaferkamp/onbase/raw/main/On%20Base%20New%20York%20Mets%202019.pdf)\
+[On Base 2019 NYM Player Cards](hhttps://github.com/brianhaferkamp/onbase/raw/main/2019_New_York_Mets.pdf)\
 [On Base Quick Start Guide](https://github.com/brianhaferkamp/onbase/raw/main/On%20Base%20Quick%20Start%20Guide.pdf)\
 [On Base Scorecard](https://github.com/brianhaferkamp/onbase/raw/main/On%20Base%20Scorecard.pdf)
 
