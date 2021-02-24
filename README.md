@@ -36,7 +36,7 @@ On Base utilizes 3 dice for gameplay: 2 D6s and 1 D9. A D9 is a bit unusual so w
 Update: The blue 50/50 die has now been removed from the dice roller app.
 
 ### Scorecard
-We've created a scorecard that is tailor-made for On Base. It includes places for WAR and Spd values to provide a quick reference during the game. However, you can use any scorecard for this game. A pen and paper will work, as well. The download for the scorecard is above.
+We've created a scorecard that is tailor-made for On Base. It includes places for Def and Spd values to provide a quick reference during the game. However, you can use any scorecard for this game. A pen and paper will work, as well. The download for the scorecard is above.
 
 ## Basic Gameplay
 To get started, create your lineups and then open the the dice roller app in any web browser. Roll the dice and read the value of each D6. The two values are combined to make a two-digit number, with the lowest number coming first. So if one die has a value of 1 and the other die has a value of 6 then we read it as 16 (not 7). Each at-bat starts with the pitcher card. Take the roll number and check that number on the pitcher card. If there is a result then the play is resolved with the outcome on the pitcher card. There is no need to go to the batter card. If the roll number is blank on the pitcher card then check the roll number on the batter card for the outcome of the play.
