@@ -16,6 +16,10 @@ Based on feedback from the WAR-based version of On Base we've made many changes 
 - Uploaded 2 new demo teams: 2019 Marlins and Mets
 - Scorecard download updated to match new game verion
 
+### Breaking down the batter card
+
+![GitHub Logo](/images/batter_card.jpg)
+
 ## Getting Started
 Thanks for checking out On Base. Here's how to get started:
 
