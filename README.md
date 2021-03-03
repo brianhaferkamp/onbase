@@ -2,8 +2,8 @@
 A cards and dice tabletop baseball game powered by advanced statistics and sabermetrics
 
 ### Contact me for questions or feedback
-**Email:** brianhaferkamp@gmail.com
-**Twitter:** @brianhaferkamp
+**Email:** brianhaferkamp@gmail.com\
+**Twitter:** @brianhaferkamp\
 **Delphi username:** OnBase
 
 
