@@ -1,6 +1,8 @@
 # On Base
 A cards and dice tabletop baseball game powered by advanced statistics and sabermetrics
 
+Contact me for questions or feedback: brian.haferkamp@gmail.com
+
 ## Update (February 2021)
 Based on feedback from the WAR-based version of On Base we've made many changes to the game for the better. Here are some of the changes we made:
 
