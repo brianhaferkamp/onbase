@@ -3,7 +3,7 @@ A cards and dice tabletop baseball game powered by advanced statistics and saber
 
 ### Contact me for questions or feedback
 **Email:** onbasebaseball@gmail.com\
-**Delphi username:** OnBase
+**Delphi Forums Username:** OnBase
 
 
 ## Update (February 2021)
